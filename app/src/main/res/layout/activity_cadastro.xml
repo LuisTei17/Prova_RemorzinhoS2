@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.jotaro.televisa1.CadastroActivity">
+
+    <AutoCompleteTextView android:id="@+id/etMarca"
+        android:hint="Marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etModelo"
+        android:hint="Modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etPeso"
+        android:hint="Peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox android:id="@+id/cbcaption"
+        android:text="Closed Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox android:id="@+id/cbdigital"
+        android:text="C. Digital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox android:id="@+id/cbsap"
+        android:text="Func. SAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbHD"
+            android:text="HD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton android:id="@+id/rbFullHD"
+            android:text="Full HD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton android:id="@+id/rb4K"
+            android:text="4k"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button android:id="@+id/btEnviar"
+        android:text="Enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/btExcluir"
+        android:text="Excluir"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
